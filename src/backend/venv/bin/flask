@@ -1,4 +1,4 @@
-#!/home/skulz/code/Music_player/src/backend/venv/bin/python3
+#!/home/skulz/react/Music_player/src/backend/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
