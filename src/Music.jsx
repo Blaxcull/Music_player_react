@@ -7,7 +7,7 @@ let currentSong = null;
 const playSong = (file) => {  
    
     if (file !== currentSong) {
-        music.src = `./src/assets/${file}`;
+        music.src = ` /assets/${file}`;
         currentSong = file; 
        
         music.play()
