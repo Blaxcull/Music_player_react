@@ -16,7 +16,7 @@ function App() {
     <Button></Button>
     <Music></Music>
     <Volume></Volume>
-    <FileList />
+    
 
     </>
   )
