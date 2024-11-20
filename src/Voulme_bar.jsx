@@ -74,10 +74,19 @@ const Volume = () => {
 
     return (
         <>
+       
+        <br />
+        <div className='volume_buttons'>
             <button onClick={volmore}>Volume +</button>
-            <button onClick={volless}>Volume -</button>
             <br /><br />
-            <ProgressBar />
+            <div className='volumebar'><ProgressBar /></div>
+            <br />
+            <button onClick={volless}>Volume -</button>
+            
+            </div>
+            <br />
+           
+            
         </>
     );
 };

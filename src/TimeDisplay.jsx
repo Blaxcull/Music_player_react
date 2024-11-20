@@ -20,14 +20,15 @@ function TimeDisplay({ currentTime, duration }) {
     
 
     return (
-        <>
+        <div className='time'>
          <h3>
             {minutes(Math.floor(currentTime))}</h3>
+            
         <h3>
             {minutes(Math.floor(duration))} 
         </h3>
         
-        </>
+        </div>
        
     );
 }

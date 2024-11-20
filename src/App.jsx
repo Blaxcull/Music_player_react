@@ -1,8 +1,9 @@
-import Button from './Button'
+
 import Song_progress_bar from './Song_progress_bar'
 import Music from './Music'
 import Volume from './Voulme_bar'
-import FileList from './FileList'
+import MusicControls from './MusicControls'
+
 import './App.css'
 
 
@@ -13,11 +14,10 @@ function App() {
     <>
     
     <Song_progress_bar></Song_progress_bar>
-    <Button></Button>
+    
     <Music></Music>
     <Volume></Volume>
-    
-
+    <MusicControls />
     </>
   )
 }

@@ -1,24 +1,30 @@
-.progress_bar{
+/* Progress bar styles */
+.progress_bar {
+  display: flex;
     background-color: gray;
     position: relative; 
     width: 100px;
     height: 3px;
     border-radius: 2px; 
-  }
+}
 
-.progress_fill{
+.progress_fill {
     background-color: violet;
     position: relative; 
     height: 3px;
     border-radius: 2px; 
 }
 
+/* Volume control styles */
 .volume_progress_bar {
   width: 100px;
   height: 4px; 
   background-color: gray; 
   position: relative; 
   border-radius: 2px; 
+  
+  
+  
 }
 
 .volume_progress_fill {
@@ -26,9 +32,7 @@
   background-color: violet; 
   position: relative; 
   border-radius: 2px; 
-  
 }
-
 
 .dot {
   width: 9px; 
@@ -39,5 +43,16 @@
   right: -6px; 
   top: -3px; 
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
-  
+}
+
+
+
+.playback-controls {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.secondary-controls {
+    margin-left: auto;
 }
